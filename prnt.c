@@ -3,17 +3,6 @@
 #include <stdlib.h>
 
 /**
- * @brief: This program prints itself. It gets no arguments and when trying to
- *          pass an argument to it an error massage will be printed. It works
- *          both in Linux and in Windows.
- *         To run it, you first need to compile it with the following line:
- *          gcc -ansi -pedantic -Wall prnt.c -o prnt
- *          # prnt can be changed and the program will still work.
- *          # the program name has to be the same as the .c file.
- * 
- */
-
-/**
  * Declarations of helping functions.
  */
 int check(char* first, char* second, int size);
